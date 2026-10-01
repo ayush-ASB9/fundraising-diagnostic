@@ -1,0 +1,11 @@
+{
+  "title": "Fundraising Sprint",
+  "description": "Accelerate your fundraising efforts with a comprehensive diagnostic and strategy sprint, tailored for founders to identify gaps and create actionable plans.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

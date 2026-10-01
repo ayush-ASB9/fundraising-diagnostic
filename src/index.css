@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@300;400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+:root {
+  --background: #090909;
+  --foreground: #ede9e1;
+  --card: #111010;
+  --card-foreground: #ede9e1;
+  --primary: #c9a96e;
+  --primary-foreground: #090909;
+  --secondary: #1a1917;
+  --secondary-foreground: #ede9e1;
+  --muted: #1a1917;
+  --muted-foreground: #7a7570;
+  --accent: #c9a96e;
+  --accent-foreground: #090909;
+  --border: rgba(237, 233, 225, 0.08);
+  --border-strong: rgba(237, 233, 225, 0.18);
+  --ring: #c9a96e;
+  --radius: 0px;
+  --ink-dark: #ede9e1;
+  --ink-mid: #c8c4bc;
+  --ink-muted: #8c8882;
+  --ink-faint: #706c68;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(201, 169, 110, 0.2);
+  color: #ede9e1;
+}
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(201,169,110,0.3); border-radius: 2px; }
+
+:focus-visible {
+  outline: 2px solid rgba(201, 169, 110, 0.7);
+  outline-offset: 3px;
+}
+button:focus-visible, a:focus-visible {
+  outline: 2px solid rgba(201, 169, 110, 0.7);
+  outline-offset: 3px;
+}
